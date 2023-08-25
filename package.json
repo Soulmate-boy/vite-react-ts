@@ -1,0 +1,63 @@
+{
+  "name": "souldou-vite-react-ts-template",
+  "private": true,
+  "version": "1.0.7",
+  "author": "souldou",
+  "description": "vite-react-ts脚手架模板",
+  "keywords": [
+    "souldou",
+    "vite",
+    "react",
+    "typescript",
+    "vite-react-ts-template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/souldou/npm-vite-react-template.git"
+  },
+  "license": "ISC",
+  "homepage": "",
+  "bugs": "",
+  "main": "",
+  "type": "module",
+  "scripts": {
+    "init:pnpm": "pnpm install",
+    "dev:dev": "vite --mode dev",
+    "dev:development": "vite --mode development",
+    "dev:test": "vite --mode test",
+    "build:test": "tsc && vite build --mode test",
+    "build:production": "tsc && vite build --mode production",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/node": "^20.5.1",
+    "antd": "^5.8.4",
+    "dotenv": "^16.3.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "valtio": "^1.11.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.197",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-legacy": "^4.1.1",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "less": "^4.2.0",
+    "less-vars-to-js": "^1.3.0",
+    "typescript": "^5.0.2",
+    "unplugin-auto-import": "^0.16.6",
+    "vite": "^4.4.5",
+    "vite-plugin-imp": "^2.4.0"
+  }
+}
